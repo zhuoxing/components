@@ -1,0 +1,37 @@
+/* components/SeachBar/SearchBar.wxss */
+@import '../../style/weui.wxss';
+.select-box {
+  position: relative;
+  color:#000;
+  z-index:99;
+  background:#fff;
+  font-size:13px;
+  border:1rpx solid #e6e6ea;
+  border-right:0;
+  width:50px;
+  text-align:center;
+  line-height:28px;
+  /* margin-right: -1px; */
+  border-radius: 4px 0 0 4px;
+}
+.weui-search-bar__form{
+  border-radius: 0 5px 5px 0 
+}
+.weui-search-bar__cancel-btn{
+  font-size: 15px;
+}
+.select-list{
+  position: absolute;
+  top: 28px;
+  z-index: 999;
+  border: solid 1px #e6e6ea;
+  background: #fff;
+  border-bottom: 0;
+  border-radius: 4px;
+}
+.select-list-item{
+  text-indent: 10px;
+  text-align: left;
+  width: 70px;
+  border-bottom: solid 1px #e6e6ea;
+}
